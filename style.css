@@ -554,8 +554,11 @@ a:visited {
 
 .site-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 20px;
+  width: 100%;
+  min-height: 50px;
 }
 .site-list__item {
   font-family: "Inter", sans-serif;
@@ -588,6 +591,11 @@ a:visited {
     width: 100%;
   }
 
+  .reviews-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .reviews-img__img1 {
     max-width: 200px;
   }

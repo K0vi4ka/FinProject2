@@ -622,8 +622,11 @@ a:visited {
 
 .site-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 20px;
+  width: 100%;
+  min-height: 50px;
 
   &__item {
     font-family: 'Inter', sans-serif;
@@ -661,6 +664,9 @@ a:visited {
 
   .reviews {
     &-img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       &__img1{
         max-width: 200px;
       }
