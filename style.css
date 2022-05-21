@@ -51,6 +51,7 @@ a:visited {
   justify-content: space-around;
   align-items: center;
   margin: 100px 0;
+  width: 100%;
 }
 
 .start-img__item {
@@ -91,6 +92,7 @@ a:visited {
 .booking {
   display: flex;
   justify-content: center;
+  width: 100%;
   background: linear-gradient(transparent 0%, transparent 40%, #FFFFFF 40%, #FFFFFF 100%), linear-gradient(to right, #A18CD1 0%, #FBC2EB 100%);
 }
 
@@ -140,6 +142,7 @@ a:visited {
 .choosing-place {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -345,10 +348,213 @@ a:visited {
   height: 250px;
 }
 .package-list__item {
+  text-align: center;
   vertical-align: middle;
   font-family: Montserrat;
   font-weight: 400;
   margin: 10px;
+}
+
+.reviews {
+  margin: 0 25%;
+  min-height: 1000px;
+  margin: 50px;
+}
+.reviews__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 48px;
+  color: #222222;
+}
+.reviews__paragraph {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 26px;
+  color: #898989;
+  width: 40%;
+}
+
+.reviews-img {
+  margin: 50px;
+  min-height: 500px;
+}
+.reviews-img__img1 {
+  max-width: 300px;
+}
+.reviews-img__img2 {
+  max-width: 300px;
+  transform: translate(0, -50px);
+}
+.reviews-img__img3 {
+  max-width: 300px;
+  transform: translate(0, -100px);
+}
+.reviews-img__img4 {
+  max-width: 300px;
+  transform: translate(0, -150px);
+}
+
+.customer-reviwes {
+  transform: translate(50vw, -200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  border-bottom: 7px solid #3685FB;
+  border-radius: 5px;
+}
+.customer-reviwes__paragraph {
+  font-family: "Inter", sans-serif;
+  margin: 5px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: url(./IMG/main/reviews/Qustion.jpg) no-repeat;
+  width: 80%;
+  margin: auto;
+  min-height: 700px;
+}
+.question__title {
+  width: 30%;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin: 5%;
+}
+.question__btn {
+  background-color: #FFFFFF;
+  border: 0px;
+  border-radius: 50px;
+  width: 260px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  color: #3685FB;
+  margin: 5%;
+  margin-top: 50px;
+}
+
+.send-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.user-data__email-input {
+  width: 40%;
+  min-height: 70px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.user-data__btn {
+  transform: translate(-10vw);
+  min-width: 150px;
+  height: 50px;
+  background-color: #3685FB;
+  border: 0;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.helpfull-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.support__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.support-list {
+  list-style: none;
+}
+.support-list__item {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.community__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.community-list {
+  list-style: none;
+}
+.community-list__item {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.about__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.about-list {
+  list-style: none;
+}
+.about-list__item {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.link {
+  width: 30%;
+}
+.link__img {
+  margin: 20px 0;
+}
+.link__paragraph {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  color: #898989;
+}
+
+.link-img__icons {
+  margin: 20px;
+}
+
+.site-info {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.site-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.site-list__item {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
