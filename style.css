@@ -356,7 +356,6 @@ a:visited {
 }
 
 .reviews {
-  margin: 0 25%;
   min-height: 1000px;
   margin: 50px;
 }
@@ -414,8 +413,8 @@ a:visited {
   justify-content: space-around;
   align-items: flex-start;
   background: url(./IMG/main/reviews/Qustion.jpg) no-repeat;
-  width: 80%;
   margin: auto;
+  width: 1244px;
   min-height: 700px;
 }
 .question__title {
@@ -459,18 +458,25 @@ a:visited {
   border-radius: 10px;
 }
 .user-data__btn {
-  transform: translate(-10vw);
   min-width: 150px;
   height: 50px;
   background-color: #3685FB;
   border: 0;
   border-radius: 10px;
   color: #FFFFFF;
+  margin: 0 10px;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .helpfull-info {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 70px;
   width: 100%;
 }
@@ -555,6 +561,78 @@ a:visited {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .question {
+    width: 100%;
+  }
+
+  .make-booking {
+    width: 100%;
+  }
+
+  .type-of-relax__item1 > img {
+    width: 100%;
+  }
+
+  .type-of-relax__item2 > img {
+    width: 100%;
+  }
+
+  .type-of-relax__item3 > img {
+    width: 100%;
+  }
+
+  .type-of-relax__item4 > img {
+    width: 100%;
+  }
+
+  .reviews-img__img1 {
+    max-width: 200px;
+  }
+  .reviews-img__img2 {
+    max-width: 200px;
+    transform: translate(0, 0);
+  }
+  .reviews-img__img3 {
+    max-width: 200px;
+    transform: translate(0, 0);
+  }
+  .reviews-img__img4 {
+    max-width: 200px;
+    transform: translate(0, 0);
+  }
+
+  .customer-reviwes {
+    transform: translate(0, 0);
+  }
+
+  .link {
+    display: flex;
+    flex-direction: column;
+  }
+  .link__paragraph {
+    font-size: 14px;
+  }
+
+  .start-text__title {
+    font-size: 40px;
+  }
+
+  .link__img {
+    margin: 0px;
+    transform: scale(0.7);
+  }
+
+  .start-img__item--translate {
+    transform: translate(0, 0);
+  }
+}
+@media screen and (min-width: 2560px) {
+  .reviews-img {
+    transform: translate(0, 200px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
