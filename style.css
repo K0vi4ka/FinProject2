@@ -444,6 +444,9 @@ a:visited {
   flex-direction: column;
   align-items: center;
 }
+.send-message__title {
+  font-family: Montserrat;
+}
 
 .user-data {
   display: flex;
